@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #39a6b2
+    --primary-color: #39a6b2;
+    --secondary-color: #024e76;
 }
 
 * {
@@ -25,7 +26,6 @@ header h1 {
     background-color: var(--primary-color);
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     line-height: 1.5;
-    t
 }
 
 header a {
@@ -56,6 +56,91 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: white;
-    border-radius: 15px;
     text-shadow: none;
 }
+
+.backg {
+    background-image: url("../img/x15rQA\ \(1\).jpg");
+    margin: 0%;
+    padding-top: 10%;
+    padding-right: 0;
+}
+
+.backg h1 {
+    background-color: var(--primary-color);
+    font-size: 250%;
+    padding: 2%;
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+section {
+    margin: 200px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2 {
+    font-size: 48px;
+    color: var(--secondary-color);
+    text-align: right;
+    padding-right: 30px;
+}
+
+.contant {
+    border-left: var(--secondary-color) 3px solid;
+    color: var(--primary-color);
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.flexp ul li a img {
+    width: 40%;
+}
+
+.contact-me ul {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.contact-me ul li {
+    border-bottom: solid var(--secondary-color) 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-me ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flexp ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.hp {
+    background-color: var(--primary-color);
+    margin: 0%;
+    margin-right: 80%;
+    font-size: 0.75;
+    color: black;
+}
+
+.hp p {
+    font-size: 0.5;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 575px) {}
